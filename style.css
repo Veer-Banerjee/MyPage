@@ -1,0 +1,93 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    font-size: 15px;
+    background: linear-gradient(to right, orange, orangered) fixed;
+    padding: 15px;
+    margin: 13px;
+    color: white;
+}
+
+.block {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.block nav ul {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.block li {
+    list-style: none;
+}
+
+.block a {
+    text-decoration: none;
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.block a:hover {
+    background-color: greenyellow;
+}
+
+img {
+    width: 750px;
+    height: 500px;
+}
+
+#mypic {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hobbies ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.common {
+    background-color: gold;
+    text-align: center;
+    padding: 100px;
+    margin: 50px;
+    height: auto;
+    color: black;
+}
+
+.projects article a {
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.info {
+    background-color: gold;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+    color: black;
+}
+
+.hobbies li {
+    list-style: none;
+}
